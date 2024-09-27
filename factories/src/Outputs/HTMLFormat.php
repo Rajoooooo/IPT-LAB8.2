@@ -10,7 +10,6 @@ class HTMLFormat implements ProfileFormatter
 
     public function setData($profile)
     {
-        // Start the HTML structure with Bootstrap CSS and custom styling for modern aesthetics
         $output = <<<HTML
 <html lang="en">
 <head>
@@ -21,14 +20,14 @@ class HTMLFormat implements ProfileFormatter
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
     <style>
         body {
-            background: linear-gradient(135deg, #f0f8ff, #d1e9ff); /* Subtle gradient background */
+            background: linear-gradient(135deg, #f0f8ff, #d1e9ff); 
             font-family: 'Open Sans', sans-serif;
             margin: 0;
             padding: 0;
         }
         h1, h2, h5 {
             color: #003366;
-            font-family: 'Montserrat', sans-serif; /* Headings font */
+            font-family: 'Montserrat', sans-serif;
         }
         .navbar {
             background-color: #003366;
